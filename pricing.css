@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5px;
+    gap:20px;
+}
+.pageviews{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+}
+.price{
+    border: 1px solid black;
+    padding: 5px;
+}
+.slider{
+    border: 1px solid black;
+}
+.payment_type{
+    border: 1px solid black;
+    padding: 5px;
+}
